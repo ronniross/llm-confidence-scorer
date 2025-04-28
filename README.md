@@ -65,7 +65,7 @@ It does not require internal access to the primary LLM.
 **Concept:** This is the most integrated approach, requiring access to the internal architecture of the primary LLM. The idea is to identify, interpret, or potentially train specific "attention heads" within the transformer model to capture signals related to the model's confidence or uncertainty as it generates each token of the output. The confidence estimate is then derived by analyzing the patterns or activations of these particular attention heads during the initial generation pass.
 **Distinction:** Unlike the other methods, this approach doesn't involve additional inference calls after the initial output is generated or the use of a separate model. The confidence signal is intended to be a byproduct extracted directly from the primary model's internal workings during its forward pass. This method is heavily reliant on the specific model architecture and availability of internal states.
 
-"Each of these approaches offers a different trade-off in terms of implementation complexity, computational cost, required access to the models' weights."
+Each of these approaches offers a different trade-off in terms of implementation complexity, computational cost, required access to the models' weights.
 
 Note on Implementation Approach:
 
