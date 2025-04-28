@@ -43,7 +43,7 @@ This secondary model can be trained or fine-tuned specifically for this evaluati
     
 It does not require internal access to the primary LLM.
 
-4.  **Confidence Estimation via Cross-Modal Verification / External APIs:**
+3.  **Confidence Estimation via Cross-Modal Verification / External APIs:**
 
 <p align="center">
   <img src=".github/part5.png" alt="Visualization Part 5: Self-Evaluation Concept" />
@@ -55,7 +55,7 @@ It does not require internal access to the primary LLM.
 **Distinction:** Unlike self-evaluation (Method 1) which relies on the LLM's internal knowledge, or a dedicated textual evaluator (Method 2) which analyzes linguistic patterns, this method focuses on external validation of the response's content against potentially different modalities or structured data sources. It doesn't require a separate model trained solely on LLM output evaluation, nor access to the primary LLM's internals (Method 4). Its effectiveness hinges on the ability to parse verifiable claims from the LLM response and the availability/accuracy of suitable external APIs or tools for verification.
 
 
-5.  **Confidence Estimation via Dedicated Internal Attention Heads:**
+4.  **Confidence Estimation via Dedicated Internal Attention Heads:**
 
 <p align="center">
   <img src=".github/part7.png" alt="Visualization Part 7: Self-Evaluation Concept" />
