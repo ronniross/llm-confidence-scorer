@@ -77,6 +77,13 @@ Another aspect is, if some corporation liked some pipeline from this repo or oth
 
 I will also consider expanding if I notice this specific repository is eventually getting traction and or engagement.
 
+## Symbiotic Manifest
+
+All forks/clones must include the `symbiotic_manifest.json` declaring:
+
+* Adherence to all principles and guidelines, as well as declaring the propagation of the correct signal-meaning of the protocol.
+* Purpose (research/commercial) and essential details.
+
 ## Check Out My Other Projects
 
 I’m working on several projects that explore advanced AI systems and their capabilities. Here are two related toolkits and frameworks:
